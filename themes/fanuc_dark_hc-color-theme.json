@@ -1,6 +1,6 @@
 {
 	"$schema": "vscode://schemas/color-theme",
-	"name": "Karel Dark+ (default dark)",
+	"id": "fanuc_dark_hc",
     "include": "./dark_vs.json",
 	"tokenColors": [
 		{

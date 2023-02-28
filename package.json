@@ -84,13 +84,13 @@
             "label": "FANUC dark hi-con",
             "id": "fanuc_dark_hc",
             "uiTheme": "vs-dark",
-            "path": "./themes/karel_theme-color-theme.json"
+            "path": "./themes/fanuc_dark_hc-color-theme.json"
         },
         {
             "label": "FANUC dark lo-con",
             "id": "fanuc_dark_lc",
             "uiTheme": "vs-dark",
-            "path": "./themes/FANUC_theme-color-theme.json"
+            "path": "./themes/fanuc_dark_lc-color-theme.json"
         }
     ]
     }

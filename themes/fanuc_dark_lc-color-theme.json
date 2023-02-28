@@ -1,6 +1,6 @@
 {
 	"$schema": "vscode://schemas/color-theme",
-	"name": "Karel Dark+ (default dark)",
+	"id": "fanuc_dark_lc",
     "include": "./dark_vs.json",
 	"tokenColors": [
 		{
@@ -9,7 +9,7 @@
 				"string.regexp.karel",
 			],
 			"settings": {
-				"foreground": "#d83c3c"
+				"foreground": "#db5c5c"
 			}
 		},
 		{
@@ -27,14 +27,14 @@
 				"punctuation.definition.tag.karel",
 			],
 			"settings": {
-				"foreground": "#00A0A0"
+				"foreground": "#7e7979"
 			}
 		},
 		{
 			"name": "Control flow keywords (if, while, repeat...)",
 			"scope": "keyword.control.conditional.karel",
 			"settings": {
-				"foreground": "#0080FF"
+				"foreground": "#2391ff"
 			}
 		},
 		{
@@ -61,7 +61,7 @@
 				"string.karel"
 			],
 			"settings": {
-				"foreground": "#a53dc5"
+				"foreground": "#b064c7"
 			}
 		},
 		{
@@ -70,11 +70,11 @@
 				"keyword.other.karel"
 			],
 			"settings": {
-				"foreground": "#0080FF"
+				"foreground": "#2391ff"
 			}
 		},
 		{
-            "name": "Operators, digital ports",
+			"name": "Operators, digital ports",
 			"scope": [
 				"support.function.karel",
 			],
@@ -83,7 +83,7 @@
 			}
 		},
 		{
-            "name": "Fanuc constants",
+			"name": "Fanuc constants",
 			"scope": [
 				"constant.character.escape.karel",
 			],
@@ -92,35 +92,35 @@
 			}
 		},
 		{
-            "name": "Data Type",
+			"name": "Data Type",
 			"scope": "keyword.datatype.dic",
 			"settings": {
 				"foreground": "#2bb1bb"
 			}
-        },
-        {
-            "name": "Constructs",
+		},
+		{
+			"name": "Constructs",
 			"scope": "keyword.constructs.dic",
 			"settings": {
-				"foreground": "#a32bbb"
+				"foreground": "#b064c7"
 			}
 		},
 		{
-            "name": "Comment",
+			"name": "Comment",
 			"scope": "keyword.comment.dic",
 			"settings": {
 				"foreground": "#6A9955"
 			}
 		},
 		{
-            "name": "Reversed Words",
+			"name": "Reversed Words",
 			"scope": "keyword.reversed.dic",
 			"settings": {
 				"foreground": "#ffffff"
 			}
 		},
 		{
-            "name": "Form Structure",
+			"name": "Form Structure",
 			"scope": "keyword.forms.dic",
 			"settings": {
 				"foreground": "#0080FF"
@@ -130,7 +130,7 @@
 			"name": "String",
 			"scope": "type.string.dic",
 			"settings": {
-				"foreground": "#a53dc5",
+				"foreground": "#b064c7",
 			}
 		},
 		{
@@ -199,7 +199,7 @@
 				"keyword.other.control.CM"
 			],
 			"settings": {
-				"foreground": "#ff008c"
+				"foreground": "#e65ca8"
 			}
 		},
 		{
@@ -208,7 +208,7 @@
 				"keyword.kcl.command.CM"
 			],
 			"settings": {
-				"foreground": "#c8ff00"
+				"foreground": "#d1762b"
 			}
 		},
 		{
@@ -217,7 +217,7 @@
 				"type.string.CM"
 			],
 			"settings": {
-				"foreground": "#ff0000"
+				"foreground": "#db5c5c"
 			}
 		},
 		{
@@ -248,4 +248,4 @@
 			}
 		}
 	]
-}
+}	

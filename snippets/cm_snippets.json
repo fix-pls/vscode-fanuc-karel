@@ -1,0 +1,43 @@
+{
+    "IF statement": {
+        "prefix": "IF",
+        "body": [
+            "IF ${1:condition}",
+            "\t$0",
+            "ENDIF"
+        ],
+        "description": "IF Statement"
+    },
+
+    "IF ELSE statement": {
+        "prefix": "IFELSE",
+        "body": [
+            "IF ${1:condition}",
+            "\t$2",
+            "ELSE",
+            "\t$3",
+            "ENDIF"
+        ],
+        "description": "IF ELSE Statement"
+    },
+
+    "FOR statement": {
+        "prefix": "FOR",
+        "body": [
+            "FOR ${1:condition} TO ${2:condition} DO",
+            "\t$3",
+            "ENDFOR"
+        ],
+        "description": "IF ELSE Statement"
+    },
+
+    "BEGIN END statement": {
+        "prefix": "BEGIN",
+        "body": [
+            "BEGIN",
+            "\t$1",
+            "END"
+        ],
+        "description": "BEGIN ELSE Statement"
+    }
+}

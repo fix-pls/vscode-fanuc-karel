@@ -1,40 +1,97 @@
 {
-    "name": "fanuc-karel-syntax",
-    "displayName": "Fanuc-Karel-Syntax",
-    "description": "Fanuc Karel (.kl) Syntax Support",
-    "version": "0.0.4",
-    "publisher": "fabi",
-    "repository": "https://github.com/iBaff/vscode-fanuc-karel",
-    "icon": "icon.png",
+    "name": "karel-syntax",
+    "displayName": "KAREL-Language-Support",
+    "description": "Fanuc KAREL Syntax Support",
+    "version": "1.0.0",
+    "publisher": "FANUC Deutschland GmbH",
     "engines": {
-        "vscode": "^1.33.0"
+        "vscode": "^1.23.0"
     },
     "categories": [
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "fanuc-karel",
-            "aliases": ["Fanuc-Karel(.kl)", "fanuc-karel"],
+        "languages": [
+        {
+            "id": "karel",
+            "aliases": ["Karel(.kl)", "karel"],
             "extensions": [".kl", ".klh", ".klt"],
             "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "fanuc-karel",
+        },
+        {
+            "id": "CM",
+            "aliases": ["CM(.CM)"],
+            "extensions": [".cm", ".CM"],
+            "configuration": "./language-configuration.json"
+        },
+        {
+            "id": "ftx",
+            "aliases": ["FTX(.FTX)"],
+            "extensions": [".ftx", ".FTX"],
+            "configuration": "./language-configuration.json"
+        },
+        {
+            "id": "etx",
+            "aliases": ["ETX(.ETX)"],
+            "extensions": [".etx", ".ETX"],
+            "configuration": "./language-configuration.json"
+        },
+        {
+            "id": "utx",
+            "aliases": ["UTX(.UTX)"],
+            "extensions": [".utx", ".UTX"],
+            "configuration": "./language-configuration.json"
+        }
+    ],
+        "grammars": [
+        {
+            "language": "karel",
             "scopeName": "source.kl",
-            "path": "./syntaxes/fanuc-karel.tmLanguage.json"
-        }],
+            "path": "./syntaxes/karel.tmLanguage.json"
+        },
+        {
+            "language": "CM",
+            "scopeName": "source.CM",
+            "path": "./syntaxes/cm.tmLanguage.json"
+        },
+        {
+            "language": "ftx",
+            "scopeName": "source.ftx",
+            "path": "./syntaxes/ftx.tmLanguage.json"
+        },
+        {
+            "language": "etx",
+            "scopeName": "source.etx",
+            "path": "./syntaxes/etx.tmLanguage.json"
+        },
+        {
+            "language": "utx",
+            "scopeName": "source.utx",
+            "path": "./syntaxes/utx.tmLanguage.json"
+        }
+    ],
         "snippets":[{
-                "language": "fanuc-karel",
-                "path": "./snippets/fanuc-karel.json"
-        }],
+                "language": "karel",
+                "path": "./snippets/karel.json"
+        },
+        {
+                "language": "CM",
+                "path": "./snippets/cm_snippets.json"
+        }
+    ],
         "themes": [
-            {
-                "label": "Karel_Theme",
-                "id": "karel",
-                "uiTheme": "vs-dark",
-                "path": "./themes/karel_theme-color-theme.json"
-            }
-        ]
+        {
+            "label": "FANUC dark hi-con",
+            "id": "fanuc_dark_hc",
+            "uiTheme": "vs-dark",
+            "path": "./themes/karel_theme-color-theme.json"
+        },
+        {
+            "label": "FANUC dark lo-con",
+            "id": "fanuc_dark_lc",
+            "uiTheme": "vs-dark",
+            "path": "./themes/FANUC_theme-color-theme.json"
+        }
+    ]
     }
 }

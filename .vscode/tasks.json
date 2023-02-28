@@ -1,0 +1,171 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "PUSH FILE FTP",
+            "type": "shell",
+            "command": "python .\\scripts\\PushFileFTP.py \"${fileDirname}\\compiled\\${fileBasename}\" \"10.178.142.10\"",
+            //"command": "python .\\scripts\\PushFileFTP.py \"${fileDirname}\\compiled\\${fileBasename}\" \"172.168.1.202\"",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "KTRANS V8.30-1",
+            "type": "shell",
+            "command": ".\\scripts\\KTRANS.cmd \"${fileDirname}\" V8.30-1 \"${fileBasename}\"",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },  
+        {
+            "label": "KDICT V8.30-1",
+            "type": "shell",
+            "command": ".\\scripts\\KDICT.cmd \"${fileDirname}\" V8.30-1 \"${fileBasename}\"",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },  
+        {
+            "label": "KTRANS V8.36-1",
+            "type": "shell",
+            "command": ".\\scripts\\KTRANS.cmd \"${fileDirname}\" V8.36-1 \"${fileBasename}\"",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },  
+        {
+            "label": "KDICT V8.36-1",
+            "type": "shell",
+            "command": ".\\scripts\\KDICT.cmd \"${fileDirname}\" V8.36-1 \"${fileBasename}\"",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },  
+        {
+            "label": "KTRANS V9.36-1",
+            "type": "shell",
+            "command": ".\\scripts\\KTRANS.cmd \"${fileDirname}\" V9.36-1 \"${fileBasename}\"",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },  
+        {
+            "label": "KDICT V9.36-1",
+            "type": "shell",
+            "command": ".\\scripts\\KDICT.cmd \"${fileDirname}\" V9.36-1 \"${fileBasename}\"",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },  
+        {
+            "label": "KTRANS V9.10-1",
+            "type": "shell",
+            "command": ".\\scripts\\KTRANS.cmd \"${fileDirname}\" V9.10-1 \"${fileBasename}\"",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },  
+        {
+            "label": "KDICT V9.10-1",
+            "type": "shell",
+            "command": ".\\scripts\\KDICT.cmd \"${fileDirname}\" V9.10-1 \"${fileBasename}\"",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },  
+        {
+            "label": "KTRANS V9.30-1",
+            "type": "shell",
+            "command": ".\\scripts\\KTRANS.cmd \"${fileDirname}\" V9.30-1 \"${fileBasename}\"",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "KDICT V9.30-1",
+            "type": "shell",
+            "command": ".\\scripts\\KDICT.cmd \"${fileDirname}\" V9.30-1 \"${fileBasename}\"",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        }, 
+        {
+            "label": "KTRANS V9.40-1",
+            "type": "shell",
+            "command": ".\\scripts\\KTRANS.cmd \"${fileDirname}\" V9.40-1 \"${fileBasename}\"",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "KDICT V9.40-1",
+            "type": "shell",
+            "command": ".\\scripts\\KDICT.cmd \"${fileDirname}\" V9.40-1 \"${fileBasename}\"",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        }, 
+        {
+            "label": "KTRANS newest",
+            "type": "shell",
+            "command": ".\\scripts\\KTRANS.cmd \"${fileDirname}\" \"${fileBasename}\"",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "KDICT newest",
+            "type": "shell",
+            "command": ".\\scripts\\KDICT.cmd \"${fileDirname}\" \"${fileBasename}\"",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },      
+    ]
+}
